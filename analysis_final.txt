@@ -1,0 +1,98 @@
+﻿Analyzing jovial-music-player...                                
+
+warning - Unused import: 'package:mymusicplayer_new/data/models/auth/signin_user_req.dart' - lib\core\configs\usecase\auth\signup.dart:3:8 - unused_import
+   info - The type parameter name 'Type' matches a visible type name - lib\core\configs\usecase\auth\usecase.dart:1:24 - avoid_types_as_parameter_names
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\core\theme\theme_provider.dart:72:7 - deprecated_member_use
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\core\theme\theme_provider.dart:96:7 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\helpers\widget\appbar\app_bar.dart:23:54 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\helpers\widget\appbar\app_bar.dart:23:85 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\admin\add_song_page.dart:273:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\admin\add_song_page.dart:275:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\admin\add_song_page.dart:335:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\auth\register_page.dart:108:34 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\presentation\pages\auth\signin_page.dart:195:15 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\presentation\pages\auth\signin_page.dart:200:15 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\presentation\pages\auth\signin_page.dart:205:32 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\auth\signup_or_signin.dart:117:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\auth\signup_or_signin.dart:130:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\auth\signup_or_signin.dart:133:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\auth\signup_or_signin.dart:231:49 - deprecated_member_use
+   info - 'onPopInvoked' is deprecated and shouldn't be used. Use onPopInvokedWithResult instead. This feature was deprecated after v3.22.0-12.0.pre - lib\presentation\pages\favorite\favorite_page.dart:91:7 - deprecated_member_use
+warning - Unused import: 'package:audioplayers/audioplayers.dart' - lib\presentation\pages\home\home_page.dart:13:8 - unused_import
+warning - The value of the field 'bollywoodHits' isn't used - lib\presentation\pages\home\home_page.dart:206:27 - unused_field
+   info - 'onPopInvoked' is deprecated and shouldn't be used. Use onPopInvokedWithResult instead. This feature was deprecated after v3.22.0-12.0.pre - lib\presentation\pages\home\home_page.dart:341:7 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\home\home_page.dart:472:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\home\home_page.dart:503:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\home\home_page.dart:558:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\home\home_page.dart:622:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\home\home_page.dart:711:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\home\home_page.dart:727:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\home\home_page.dart:820:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\intro\get_started_page.dart:27:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\intro\get_started_page.dart:81:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\intro\get_started_page.dart:86:52 - deprecated_member_use
+warning - Unused import: 'package:mymusicplayer_new/services/favorites_service.dart' - lib\presentation\pages\music_player\music_player_page.dart:5:8 - unused_import
+warning - Unused import: 'package:mymusicplayer_new/services/song_preferences_service.dart' - lib\presentation\pages\music_player\music_player_page.dart:12:8 - unused_import
+warning - Unused import: 'package:mymusicplayer_new/core/theme/theme_provider.dart' - lib\presentation\pages\music_player\music_player_page.dart:13:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\music_player\music_player_page.dart:561:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\music_player\music_player_page.dart:605:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\music_player\music_player_page.dart:839:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\music_player\music_player_page.dart:858:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\music_player\music_player_page.dart:903:42 - deprecated_member_use
+   info - 'onPopInvoked' is deprecated and shouldn't be used. Use onPopInvokedWithResult instead. This feature was deprecated after v3.22.0-12.0.pre - lib\presentation\pages\offline\offline_page.dart:149:7 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\offline\offline_page.dart:298:45 - deprecated_member_use
+warning - Unused import: '../music_player/music_player_page.dart' - lib\presentation\pages\profile\profile_page.dart:16:8 - unused_import
+   info - 'onPopInvoked' is deprecated and shouldn't be used. Use onPopInvokedWithResult instead. This feature was deprecated after v3.22.0-12.0.pre - lib\presentation\pages\profile\profile_page.dart:176:7 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\presentation\pages\profile\settings_page.dart:274:9 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\pages\profile\settings_page.dart:334:42 - use_build_context_synchronously
+warning - The value of the local variable 'refreshedUser' isn't used - lib\presentation\pages\profile\settings_page.dart:345:23 - unused_local_variable
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\pages\profile\settings_page.dart:348:33 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\pages\profile\settings_page.dart:349:40 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\pages\profile\settings_page.dart:359:40 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\pages\profile\settings_page.dart:396:33 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\pages\profile\settings_page.dart:397:40 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\pages\profile\settings_page.dart:403:40 - use_build_context_synchronously
+warning - The declaration '_showLanguageDialog' isn't referenced - lib\presentation\pages\profile\settings_page.dart:417:8 - unused_element
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\presentation\pages\profile\settings_page.dart:432:15 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\presentation\pages\profile\settings_page.dart:434:15 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\pages\profile\settings_page.dart:514:21 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\pages\profile\settings_page.dart:521:33 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\pages\profile\settings_page.dart:522:40 - use_build_context_synchronously
+   info - 'onPopInvoked' is deprecated and shouldn't be used. Use onPopInvokedWithResult instead. This feature was deprecated after v3.22.0-12.0.pre - lib\presentation\pages\search\search_page.dart:242:7 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pages\search\search_page.dart:400:33 - deprecated_member_use
+warning - Unused import: 'package:mymusicplayer_new/data/models/auth/song_model.dart' - lib\presentation\widgets\mini_player.dart:4:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\widgets\mini_player.dart:138:35 - deprecated_member_use
+   info - Unnecessary use of multiple underscores - lib\presentation\widgets\mini_player.dart:173:35 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\presentation\widgets\mini_player.dart:173:39 - unnecessary_underscores
+warning - Unused import: 'dart:convert' - lib\services\background_music_check.dart:4:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:11:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:18:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:20:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:25:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:55:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:61:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:68:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:73:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:85:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:102:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:106:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:110:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:118:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:122:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:129:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:138:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:165:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:192:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:194:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:230:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:233:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:234:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:241:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:269:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\background_music_check.dart:274:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:35:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:79:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:113:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:123:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:157:5 - avoid_print
+

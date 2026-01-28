@@ -3,14 +3,13 @@ import 'package:mymusicplayer_new/data/models/auth/signin_user_req.dart';
 import 'package:dartz/dartz.dart';
 
 import '../../../../domain/repository/auth/auth.dart';
-import '../../../../presentation/service_locator.dart';
 
-class  SigninUseCase implements UseCase<Either,SigninUserReq> {
-  SigninUseCase(AuthRepository authRepository);
+class SigninUseCase implements UseCase<Either, SigninUserReq> {
+  final AuthRepository _authRepository;
+  SigninUseCase(this._authRepository);
 
   @override
-  Future<Either> call({ SigninUserReq ?params}) async {
-    return sl<AuthRepository>().signin(params!);
+  Future<Either> call({SigninUserReq? params}) async {
+    return _authRepository.signin(params!);
   }
-
 }
